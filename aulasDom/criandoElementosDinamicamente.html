@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="lista">
+        <li>Produtos</li>
+    </ul>
+
+    <ul class="listatime">
+
+    </ul>
+    
+</body>
+<script>
+    var elemento = document.createElement('div')
+    elemento.innerText = 'Incluíndo texto na div'
+    elemento.style.backgroundColor = 'lightgreen'
+    document.body.append(elemento)          // criando elemento
+
+    var lista = document.getElementById('lista')
+    var li = document.createElement('li')
+    li.textContent = 'Quem Somos'
+    lista.appendChild(li)             //adicionado item no elemento filho
+
+    times = ['Real Madrid', 'Barcelona', 'Juventus', 'Atletico']
+
+    var listadetimes = document.querySelector('ul.listatime')
+
+    for(var i = 0; i < times.lenght; i ++) {
+        var time = times[i]
+        var listItem = document.createElement('li')
+        listItem.innerText = time;
+        listItem.style.border = '1px solid blue'
+        listadetimes.appendChild(listItem)
+
+    }
+
+
+</script>
+</html>
