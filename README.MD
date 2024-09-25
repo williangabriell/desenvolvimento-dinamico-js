@@ -5,8 +5,8 @@ JavaScript
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>
-  <a href="#-ementa">Ementa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-ementa">Ementa</a>
 </p>
 
 <br>
